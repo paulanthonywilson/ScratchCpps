@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1A081813E2067D0054CF29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA1A081713E2067D0054CF29 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA1A081113E2067D0054CF29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA1A081313E2067D0054CF29 /* CPPOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPOne; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1A081713E2067D0054CF29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DA1A081913E2067D0054CF29 /* CPPOne.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CPPOne.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1A081013E2067D0054CF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1A080813E2067C0054CF29 = {
+			isa = PBXGroup;
+			children = (
+				DA1A081613E2067D0054CF29 /* CPPOne */,
+				DA1A081413E2067D0054CF29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA1A081413E2067D0054CF29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA1A081313E2067D0054CF29 /* CPPOne */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA1A081613E2067D0054CF29 /* CPPOne */ = {
+			isa = PBXGroup;
+			children = (
+				DA1A081713E2067D0054CF29 /* main.cpp */,
+				DA1A081913E2067D0054CF29 /* CPPOne.1 */,
+			);
+			path = CPPOne;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA1A081213E2067D0054CF29 /* CPPOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1A081C13E2067D0054CF29 /* Build configuration list for PBXNativeTarget "CPPOne" */;
+			buildPhases = (
+				DA1A080F13E2067D0054CF29 /* Sources */,
+				DA1A081013E2067D0054CF29 /* Frameworks */,
+				DA1A081113E2067D0054CF29 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPPOne;
+			productName = CPPOne;
+			productReference = DA1A081313E2067D0054CF29 /* CPPOne */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA1A080A13E2067C0054CF29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "EdgeCase UK Ltd";
+			};
+			buildConfigurationList = DA1A080D13E2067C0054CF29 /* Build configuration list for PBXProject "CPPOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA1A080813E2067C0054CF29;
+			productRefGroup = DA1A081413E2067D0054CF29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA1A081213E2067D0054CF29 /* CPPOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA1A080F13E2067D0054CF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1A081813E2067D0054CF29 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA1A081A13E2067D0054CF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA1A081B13E2067D0054CF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA1A081D13E2067D0054CF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA1A081E13E2067D0054CF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA1A080D13E2067C0054CF29 /* Build configuration list for PBXProject "CPPOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1A081A13E2067D0054CF29 /* Debug */,
+				DA1A081B13E2067D0054CF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1A081C13E2067D0054CF29 /* Build configuration list for PBXNativeTarget "CPPOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1A081D13E2067D0054CF29 /* Debug */,
+				DA1A081E13E2067D0054CF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA1A080A13E2067C0054CF29 /* Project object */;
+}
