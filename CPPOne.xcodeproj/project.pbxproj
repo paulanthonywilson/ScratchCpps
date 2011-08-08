@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DA1A081813E2067D0054CF29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA1A081713E2067D0054CF29 /* main.cpp */; };
+		DA1A082113E206CD0054CF29 /* MyAwkwardClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA1A081F13E206CD0054CF29 /* MyAwkwardClass.cpp */; };
+		DA1A082413E209B20054CF29 /* MyStub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA1A082213E209B20054CF29 /* MyStub.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,10 @@
 		DA1A081313E2067D0054CF29 /* CPPOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1A081713E2067D0054CF29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DA1A081913E2067D0054CF29 /* CPPOne.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CPPOne.1; sourceTree = "<group>"; };
+		DA1A081F13E206CD0054CF29 /* MyAwkwardClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyAwkwardClass.cpp; sourceTree = "<group>"; };
+		DA1A082013E206CD0054CF29 /* MyAwkwardClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAwkwardClass.h; sourceTree = "<group>"; };
+		DA1A082213E209B20054CF29 /* MyStub.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyStub.cpp; sourceTree = "<group>"; };
+		DA1A082313E209B20054CF29 /* MyStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStub.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				DA1A081713E2067D0054CF29 /* main.cpp */,
 				DA1A081913E2067D0054CF29 /* CPPOne.1 */,
+				DA1A081F13E206CD0054CF29 /* MyAwkwardClass.cpp */,
+				DA1A082013E206CD0054CF29 /* MyAwkwardClass.h */,
+				DA1A082213E209B20054CF29 /* MyStub.cpp */,
+				DA1A082313E209B20054CF29 /* MyStub.h */,
 			);
 			path = CPPOne;
 			sourceTree = "<group>";
@@ -115,6 +125,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1A081813E2067D0054CF29 /* main.cpp in Sources */,
+				DA1A082113E206CD0054CF29 /* MyAwkwardClass.cpp in Sources */,
+				DA1A082413E209B20054CF29 /* MyStub.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
